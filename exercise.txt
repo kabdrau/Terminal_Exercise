@@ -1,0 +1,24 @@
+Part1
+1) mkdir first
+2) cd first 
+3) touch person.txt
+4) mv person.txt another.txt
+5) cp another.txt copy.txt
+6) rm copy.txt
+7) cp -r ~/first ~/second
+8) rm -r ~/second
+
+Part2
+1) Manual for command. man rm - manual for remove command. Enter to scroll, also Control D to move forward faster and Control B to move backwards faster, and q to exit
+2) man ls -l List files in the long format, as described in the The Long Format subsection below (detailed view).
+man ls -a Include directory entries whose names begin with a dot (‘.’) (hidden files).
+3) Option left/right
+4) Control e
+5) Control a
+6) Control w to delete one word where cursor is or control u delete entire line
+7) Shell is the program which actually processes commands and returns output. 
+Terminal is a wrapper program or interface that runs shell. 
+8) Absolute path starts from root folder and shows entire path to the file/folder
+9) Relative path starts at current location and doesn't include root folder
+10) Flag is an extension for command that adds extra features to it. So far we've used ls -l, ls -a and rm/cp -r
+11) rm -r removes folders, rm -f removes file without permission 
